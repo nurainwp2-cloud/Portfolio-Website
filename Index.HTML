@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6cd86a4648.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/meLogo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Portfolio</a></li>
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>AI Engineer / Game Developer</p>
+                <h1>Hi, I am <span> Nurain </span> <br> from Bangladesh</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/meLogo.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull
+                    amco laboris nisi ut aliquip ex ea co
+                    mmodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                        <li><span>Game Development</span><br> Game Development</li>
+                        <li><span>Graphics Design</span><br>Creating Various Designs</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Designing </li>
+                        <li><span>2019 - 2021</span><br> Team lead at B H Khan</li>
+                        <li><span>2017 - 2019</span><br>Building games</li>
+                        <li><span>2016 - 2017</span><br>Internship at Google</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2016</span><br>UI/WX training at Harvard</li>
+                        <li><span>2016</span><br> MBA from MIT</li>
+                        <li><span>2014</span><br>BBA from Oxford.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
