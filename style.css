@@ -10,8 +10,14 @@ html{
 }
 body {
     min-height: 100vh;
-    background: #090909;
+    background: #000000;
     color: white;
+}
+.me{
+    width: 700px;
+    position: absolute;
+    border-radius: 50%;
+    transform: translateX(1200px) translateY(200px);
 }
  #header{
     width: 100%;
