@@ -336,8 +336,11 @@ nav ul{
 .light{
     background-color: rgb(235, 235, 235);
 }
+.project img{
+    width: 400px;
+}
 .project:hover img{
-  width: 550px;
+  width: 420px;
   transition: 0.2s;
 }
 .project:hover{
