@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Timer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -400,4 +405,28 @@ form input.equal {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+}
+.date{
+    text-align: center;
+    font-family: Timer;
+    font-size: 60px;
+    margin-left: 250px;
+    margin-top: -200px;
+    width: 390px;
+    padding: 20px;
+color: rgb(203, 255, 61);
+color: white;
+  animation: glowPulse 1.5s ease-in-out infinite alternate
+}
+@keyframes glowPulse {
+  0% {
+    text-shadow:
+      0 0 5px  #ffc619,
+      0 0 10px #fff700;
+  }
+  100% {
+    text-shadow:
+      0 0 10px #ffff2f,
+      0 0 20px #ffff00;
+  }
 }
