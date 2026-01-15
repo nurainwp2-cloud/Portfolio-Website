@@ -173,14 +173,18 @@
         </div>
         <div class="music-player">
             <img src="468-thumbnail.png" class="song-img">
-            <h1 class="song">Despacito</h1>
-            <p class="song">Luis Fonzi ft. Porta Ruican</p>
+            <h1 class="song" id="songtitle" ></h1>
+            <p class="song" id="songArtist" ></p>
             <audio id="song" controls class="controls">
                 <source id="song-src" src="">
             </audio>
-            <ul>
-                <li><p class="song-select" onclick="prev()" style=" font-weight: bold;">Song :Go | Artist: Neffex</p></li>
-                <li><p class="song-select" onclick="next()" style=" font-weight: bold;">On the Go by The Grey Room</p></li>
+            <ul class="songlist">
+                <li><p class="song-select" onclick="song1()" >Go | Artist: Neffex</p></li>
+                <li><p class="song-select" onclick="song2()" >On the Flip | Artist: The Grey Room</p></li>
+                <li><p class="song-select" onclick="song3()" >A Stroll | Artist: The Grey Room</p></li>
+                <li><p class="song-select" onclick="song4()" >Cooked | Artist: The Grey Room</p></li>
+                <li><p class="song-select" onclick="song5()" >Claim to Fame | Artist: The Grey Room</p></li>
+                
             </ul>
         </div>
     </div>
