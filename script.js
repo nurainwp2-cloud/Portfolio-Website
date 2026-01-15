@@ -28,3 +28,19 @@ function showDate(){
 showDate()
 
 setInterval(showDate, 1000)
+
+
+function next(){
+    let song = document.getElementById("song") 
+    song.src = "On The Flip - The Grey Room _ Density & Time.mp3"
+    song.load();
+    song.play();
+
+}
+function prev(){
+    let song = document.getElementById("song") 
+    song.src = "Go! - NEFFEX.mp3"
+    song.play();
+
+}
+
