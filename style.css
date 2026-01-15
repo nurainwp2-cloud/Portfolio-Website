@@ -475,3 +475,13 @@ color: white;
 .controls{
     margin-top: 30px;
 }
+.song-select{
+    color: black;
+    background: white;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.song-select:hover{
+    background-color: #f53192;
+    color: rgb(255, 248, 236);
+}
