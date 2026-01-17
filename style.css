@@ -535,6 +535,14 @@ color: white;
     border-radius: 5px;
     cursor: pointer;
 }
-.lala:hover{
-    color: #83ffcb;
+.Lala{
+    color: white;
+    background-color: orangered;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Lala:hover{
+    background: #ffffff;
+    color: black;
 }
