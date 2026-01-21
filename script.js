@@ -16,7 +16,7 @@ function opentab(tabname) {
 }
 function showDate(){
    let dateTxt = document.getElementById("date")
-   let dat = new Date()
+   let date = new Date()
    const formatted =
       `${dat.getHours().toString().padStart(2,'0')}:` +
       `${dat.getMinutes().toString().padStart(2,'0')}:` +
