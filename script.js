@@ -19,7 +19,7 @@ function showDate(){
    let date = new Date()
    const formatted =
       `${date.getHours().toString().padStart(2,'0')}:` +
-      `${dat.getMinutes().toString().padStart(2,'0')}:` +
+      `${date.getMinutes().toString().padStart(2,'0')}:` +
       `${dat.getSeconds().toString().padStart(2,'0')}`;
 
    dateTxt.innerHTML = `${formatted}` 
