@@ -153,18 +153,19 @@ function app2(){
     let music = document.getElementById("musicPlr")
     music.style.display = "content"
 }
-function app2(){
+function app3(){
     let music = document.getElementById("musicPlr")
     music.style.display = "flex"
 }
-function app2(){
+function app4(){
     let music = document.getElementById("musicPlr")
     music.style.display = "flex"
 }
-function app2(){
+function app5(){
     let music = document.getElementById("musicPlr")
     music.style.display = "flex"
 }
+
 
 
 
