@@ -362,9 +362,10 @@ nav ul{
     padding: 20px;
     border-radius: 10px;
     width: 400px;
-    position: absolute;
+    position: relative;
     margin-top: -800px;
     margin-left: 800px;
+    margin: 10px;
 }
 .calculator form input {
     border: 0;
@@ -601,7 +602,4 @@ color: white;
 }
 .apps li{
     display: none;
-}
-.apps a:hover ~ li{
-    display: flex;
 }
