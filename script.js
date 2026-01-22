@@ -151,7 +151,7 @@ function app1() {
 }
 function app2(){
     let music = document.getElementById("musicPlr")
-    music.style.display = "content"
+    music.style.display = "flex"
 }
 function app3(){
     let music = document.getElementById("musicPlr")
