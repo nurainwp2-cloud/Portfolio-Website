@@ -154,16 +154,16 @@ function app2(){
     music.style.display = "flex"
 }
 function app3(){
-    let music = document.getElementById("musicPlr")
-    music.style.display = "flex"
+    let pass = document.getElementById("PassGen")
+    pass.style.display = "flex"
 }
 function app4(){
-    let music = document.getElementById("musicPlr")
-    music.style.display = "flex"
+    let weather = document.getElementById("cardWeather")
+    weather.style.display = "flex"
 }
 function app5(){
-    let music = document.getElementById("musicPlr")
-    music.style.display = "flex"
+    let timer = document.getElementById("Timer")
+    timer.style.display = "flex"
 }
 
 
