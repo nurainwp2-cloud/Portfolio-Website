@@ -138,6 +138,13 @@ searchBtn.addEventListener("click", () =>{
     checkWeather(searchBox.value);
 })
 
+const calculatorBtn = document.getElementById("calculatorBtn")
+const musicBtn = document.getElementById("musicBtn")
+const passwordBtn = document.getElementById("passwordBtn")
+const weatherBtn = document.getElementById("weatherBtn")
+const timerBtn = document.getElementById("timerBtn")
+
+
 
 
 
