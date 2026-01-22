@@ -595,3 +595,13 @@ color: white;
     font-size: 28px;
     margin-top: -6px;
 }
+.apps{
+    display: flex;
+    gap: 100px;
+}
+.apps li{
+    display: none;
+}
+.apps a:hover ~ li{
+    display: flex;
+}
