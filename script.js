@@ -144,6 +144,11 @@ const passwordBtn = document.getElementById("passwordBtn")
 const weatherBtn = document.getElementById("weatherBtn")
 const timerBtn = document.getElementById("timerBtn")
 
+function app1() {
+    let calculator = document.getElementById("calculatorRec")
+    calculator.style.display = "flex"
+}
+
 
 
 
