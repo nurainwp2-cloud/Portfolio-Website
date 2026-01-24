@@ -564,6 +564,10 @@ color: white;
     width: 170px;
     margin-top: 30px;
 }
+.music-player p {
+    z-index: 100;
+}
+
 .weather h1{
     font-size: 80px;
     font-weight: 500;
