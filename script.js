@@ -138,35 +138,17 @@ searchBtn.addEventListener("click", () =>{
     checkWeather(searchBox.value);
 })
 
-const calculatorBtn = document.getElementById("calculatorBtn")
-const musicBtn = document.getElementById("musicBtn")
-const passwordBtn = document.getElementById("passwordBtn")
-const weatherBtn = document.getElementById("weatherBtn")
-const timerBtn = document.getElementById("timerBtn")
+const apps = document.querySelectorAll(".apps li");
 
-
-function app1() {
-    let calculator = document.getElementById("calculatorRec")
-    calculator.style.display = "flex"
+function toggleApp(id) {
+    apps.forEach(app => {
+        if (app.id === id) {
+            app.classList.toggle("active");
+        } else {
+            app.classList.remove("active");
+        }
+    });
 }
-function app2(){
-    let music = document.getElementById("musicPlr")
-    music.style.display = "flex"
-}
-function app3(){
-    let pass = document.getElementById("PassGen")
-    pass.style.display = "flex"
-}
-function app4(){
-    let weather = document.getElementById("cardWeather")
-    weather.style.display = "flex"
-}
-function app5(){
-    let timer = document.getElementById("Timer")
-    timer.style.display = "flex"
-}
-
-
 
 
 

@@ -88,10 +88,22 @@
             </div>
         </div>
     </div>
-    <ul class="apps" id="apps">
-    <button onclick="app1()" id="calculatorBtn">Calculator</button>
- <li class="app-1"  id = "calculatorRec"><div class="calculator" style="margin: 10px;">
-    <form class>
+
+<!-- APP BUTTONS -->
+<div class="app-buttons">
+    <button onclick="toggleApp('calculatorRec')">Calculator</button>
+    <button onclick="toggleApp('musicPlr')">Music Player</button>
+    <button onclick="toggleApp('PassGen')">Random Password</button>
+    <button onclick="toggleApp('cardWeather')">Weather</button>
+    <button onclick="toggleApp('Timer')">Timer</button>
+</div>
+
+<!-- APPS -->
+<ul class="apps">
+
+    <li id="calculatorRec">
+        <div class="calculator">
+           <form class>
         <div class="display">
             <input type="text" name="display">
         </div>
@@ -125,11 +137,11 @@
             <input class="equal" type="button" onclick="display.value = eval(display.value)" value="=">
             
         </div>
-    </form>
-</div></li>
-<button href="" onclick="app2()" id="musicBtn">Music Player</button>
-<li class="app-2" id = "musicPlr"> <div class="music-player" style="margin: 10px;">
-            <img src="468-thumbnail.png" class="song-img">
+    </li>
+
+    <li id="musicPlr">
+        <div class="music-player">
+           <img src="468-thumbnail.png" class="song-img">
             <h1 class="song" id="songtitle" ></h1>
             <p class="song" id="songArtist" ></p>
             <audio id="song" controls class="controls">
@@ -143,10 +155,12 @@
                 <li><p class="song-select" onclick="song5()" >Claim to Fame | Artist: The Grey Room</p></li>
                 
             </ul>
-</div></li>
-<button href="" onclick="app3()" id="passwordBtn">Random Password</button>
-<li class="app-3" id="PassGen"><div class="pass" style="margin: 10px;">
-         <h1 class="GenPass">
+        </div>
+    </li>
+
+    <li id="PassGen">
+        <div class="pass">
+            <h1 class="GenPass">
             Generate a<br> <span> Random Password </span>
         </h1>
         
@@ -154,10 +168,12 @@
             <input type="text" id="Pass" placeholder="Password" class="formPass">
         </div>
         <button class="Lala" onclick="createPassword()" ondblclick="copyPassword()"><img src="images/generate.png" alt=""> Generate Password</button>
-</div></li>
-<button href="" onclick="app4()" id="weatherBtn">Weather</button>
- <li class="app-4" id="cardWeather"><div class="card" style="margin: 10px;">
-    <div class="search">
+        </div>
+    </li>
+
+    <li id="cardWeather">
+        <div class="card">
+            <div class="search">
         <input type="text" placeholder="Enter City Name" spellcheck="false">
         <button><img src="images/search.png" alt=""></button>
     </div>
@@ -181,10 +197,16 @@
         
         </div>
     </div>
-</div></li>
-<button href="" onclick="app5()" id="timerBtn">Timer</button>
-<li class="app-5" id="Timer"><p class="date" id="date" style="margin: 10px;">Hello</p></li>
+</div>
+        </div>
+    </li>
+
+    <li id="Timer">
+        <p class="date" id="date">00:00:00</p>
+    </li>
+
 </ul>
+
 
 
     <div id="about">
