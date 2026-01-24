@@ -638,7 +638,6 @@ color: white;
 /* ACTIVE APP */
 .apps li.active{
     display: flex;
-    position: absolute;
     margin: 10px;
 }
 
