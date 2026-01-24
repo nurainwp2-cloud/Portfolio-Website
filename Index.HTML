@@ -95,7 +95,6 @@
     <button onclick="toggleApp('musicPlr')">Music Player</button>
     <button onclick="toggleApp('PassGen')">Random Password</button>
     <button onclick="toggleApp('cardWeather')">Weather</button>
-    <button onclick="toggleApp('timerRec')">Timer</button>
 </div>
 
 
@@ -168,7 +167,7 @@
         <div class="display">
             <input type="text" id="Pass" placeholder="Password" class="formPass">
         </div>
-        <button class="Lala" onclick="createPassword()" ondblclick="copyPassword()"><img src="images/generate.png" alt=""> Generate Password</button>
+        <button class="Lala" type="button" onclick="createPassword()" ondblclick="copyPassword()"><img src="images/generate.png" alt=""> Generate Password</button>
         </div>
     </li>
 
@@ -176,7 +175,7 @@
         <div class="card">
             <div class="search">
         <input type="text" placeholder="Enter City Name" spellcheck="false">
-        <button><img src="images/search.png" alt=""></button>
+        <button type="button"><img src="images/search.png" alt=""></button>
     </div>
     <div class="weather">
         <img src="images/rain.png" class="weather-icon">
@@ -202,9 +201,7 @@
         </div>
     </li>
 
-    <li id="timerRec">
-        <p class="date" id="date">00:00:00</p>
-    </li>
+   
     
 
 </ul>
@@ -216,7 +213,9 @@
 
 
 
-
+ <li id="timerRec">
+        <p class="date" id="date">00:00:00</p>
+    </li>
     <div id="about">
         <div class="container">
             <div class="row">
@@ -340,7 +339,7 @@
                 <a href="" download class="btn">Download Portfolio</a>
             </div>
             <div class="contact-right">
-                <form>
+                <form class="contactClass">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email">
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
