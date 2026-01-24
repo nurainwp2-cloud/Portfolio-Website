@@ -596,7 +596,7 @@ color: white;
     font-size: 28px;
     margin-top: -6px;
 }
-/* APP BUTTONS */
+
 .app-buttons{
     display: flex;
     gap: 15px;
@@ -617,14 +617,14 @@ color: white;
     background: #ff7b00;
 }
 
-/* APPS CONTAINER */
+
 .apps{
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-/* APPS */
+
 .apps li{
     display: none;
     list-style: none;
